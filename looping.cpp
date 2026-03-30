@@ -21,4 +21,7 @@ int main(){
         x = 1 + rand()%10;
     }
 
+    cout<<"Bilangan acak while yang terakhir = "<<x <<endl;
+    cout<<endl;
+
     
