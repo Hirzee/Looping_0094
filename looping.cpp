@@ -50,4 +50,6 @@ int main(){
     cout<<"Masukkan nilat Bahasa Inggris = ";
     cin>>nilB;
     rerata = (nilB+nilM)/2;
-    
+    if (!(rerata < 60))
+        status = "Lulus";
+   
